@@ -39,7 +39,9 @@ Develop Lambda functions or use the existing ones to generate reply messages bas
 Configure the API Gateway to expose endpoints for delivering reply messages to the respective messaging channels (e.g., Facebook Messenger or Slack).
 7. Test and Monitor
 Thoroughly test the entire workflow, including message reception, context storage, and reply message delivery. Implement logging and monitoring using AWS CloudWatch or other relevant services to ensure the solution's reliability and performance.
-Usage
+
+**Usage**
+
 Receiving Messages: External messaging channels (e.g., Facebook Messenger or Slack) will send messages to the API Gateway endpoints you've set up.
 
 Message Processing: The Lambda functions responsible for message processing will validate, format, and route the incoming messages.
@@ -52,7 +54,8 @@ Reply Messages: Lambda functions will generate reply messages based on the conta
 
 Message Delivery: Reply messages will be delivered to the customer through the API Gateway endpoints that you've configured for the respective messaging channels.
 
-Conclusion
+**Conclusion**
+
 By following this guide, you can seamlessly integrate digital messaging channels into your contact center using Amazon Connect Chat's Message Streaming APIs and AWS serverless services. This solution provides a scalable and efficient way to enhance customer communication and support through various messaging platforms.
 
 For more detailed instructions and code samples, refer to the documentation and code samples provided in the associated repository.
