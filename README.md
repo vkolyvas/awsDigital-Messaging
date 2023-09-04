@@ -21,6 +21,7 @@ Amazon SNS Topic: Create an Amazon Simple Notification Service (SNS) topic for m
 Amazon DynamoDB: Set up an Amazon DynamoDB table to store contact context information.
 
 **Architecture Solution Diagram**
+https://github.com/vkolyvas/awsDigital-Messaging/blob/ea738542b9ad5b5d04c5a2f41f5637197c59687b/awsDigital_messaging.drawio.png
 
 **Implementation Steps**
 Follow these steps to implement the solution:
